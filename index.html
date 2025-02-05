@@ -6,7 +6,13 @@
     <title>Aprenda a fazer Drift</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>   
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="videos/3116910-hd_1920_1080_25fps.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video> 
+    </div>  
     <main class="conteudo">
         <h1 class="titulo">Curso de Drift</h1>
         <h2 class="subtitulo">Do 0 ao Pro</h2>
@@ -21,7 +27,7 @@
         </video>
         <a href="comprar.html" 
         class="botao-aprenda">APRENDA</a>
-        <audio controls autoplay loop>
+        <audio id="som">
             <source src="audio/musica-fundo.mp3" type="audio/mp3">
         </audio>
     </main>
